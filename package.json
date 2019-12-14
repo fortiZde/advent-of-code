@@ -1,0 +1,34 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Source: [adventofcode.com](https://adventofcode.com/)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortiZde/advent-of-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortiZde/advent-of-code/issues"
+  },
+  "homepage": "https://github.com/fortiZde/advent-of-code#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "expect": "^24.9.0",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ]
+  }
+}
